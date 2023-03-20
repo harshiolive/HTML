@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> FORMS </title>
+    </head>
+    <body>
+        <center> <h2><u> Registration Form </u></h2></center>
+        <form action="/photos/LAB3/thankyou.html">
+            <br> <br>
+            <label for="name"> Name: </label>
+            <input type="text" id="name" name="name"> <br><br>
+            <label for="branch"> Branch: </label>
+            <input type="text" id="branch" name="branch"><br><br>
+            <label for="roll"> Roll No. : </label>
+            <input type="text" id="roll" name="roll"> <br><br>
+            Gender:
+            <input type="radio" id="value1" name="value1" value="Male">
+            <label for="value1">Male</label>
+            <input type="radio" id="value2" name="value1" value="Female">
+            <label for="value2">Female</label><br>
+            <br>
+            Interests:<br>
+            <input type="checkbox" id="Playing" name="interest" value="Playing">
+            <label for="Playing">Playing </label><br>
+            <input type="checkbox" id="Singing" name="interest" value="Singing">
+            <label for="Singing">Singing </label><br>
+            <input type="checkbox" id="Others" name="interest" value="Others">
+            <label for="Others">Others </label><br><br>
+            Qualification:
+            <input list="qualification">
+            <datalist id="qualification">
+                <option value="10th">
+                </option>
+                <option value="12th">
+                </option>
+                <option value="B.Tech">
+                </option>
+            </datalist><br><br>
+            Comments:<br>
+            <textarea name="comments" rows="10" cols="30">
+            </textarea>
+            <br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
